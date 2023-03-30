@@ -58,5 +58,35 @@ const questions = [
       name: 'email',
       message: 'Please provide a email address of your project:',
     },
+    // Add more questions here
+  ];
+  
+
+// Create function to write README file
+function writeToFile(fileName, data) {
+    fs.writeFile(fileName, data, err => {
+      if (err) {
+        console.error(err);
+        return;
+      }
+      console.log('README.md generated successfully!');
+    });
+  }
+  
+
+// Create function to initialize app
+function init() {
+    inquirer.prompt(questions).then(answers => {
+      // Generate README content based on user input
+      const readmeContent = generateMarkdown(answers);
+  
+      // Write README file to disk
+      writeToFile('README.md', readmeContent);
+    });
+  }
+  
+
+// Function call to initialize app
+init();
 
 
