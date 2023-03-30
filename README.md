@@ -1,4 +1,4 @@
-# Readme-Generator
+# Readme Generator
 
 
 ## License
@@ -10,28 +10,32 @@ This project is licensed under the [MIT](https://opensource.org/licenses/MIT) li
 
 ## Description
 
-A professional readme generator that asks you questions and based on answers creates a readme file.
+Asks questions and create a professional readme based on answered questions
 
 ## Installation
 
-Had to finish the index.js and generateMarkdown.js to create a readme generator that works well in conjuction to one another.
+I had fill out the index.js and also generateMarkdown.js after I opened visual studios to then open the file where the information is located and right click on index.js file and open integrated terminal and type node index.js which opened the app and begins asking questions
 
 ## Usage
 
-Usages to create readme and utilize a simple generator that makes readme quick and easy.
+Usage is to make readme simple and conveint and quick and easy to use
 
 ## Contributing
 
-Had to look up information through w3 schools and also had to take tutoring session.
+Had to utilize W3 schools and tutoring secession.
 
 ## Guidelines
 
-Guidelines is it helps people fill out readme more securely and conveintly
+Guidelines to make readme fun and easy to use
 
 ## Tests
 
-had to pull up in integrated terminal and run node.js
+Open integrated terminal on index.js and type node index.js to open app to ask questions
 
 ## Questions
 
-For any questions reach out at bakhdaparth@gmail.com
+For any questions reach out at Bakhdaparth@gmail.com
+
+Links for Videos of walkthrough for Readme Generators:
+ https://drive.google.com/file/d/10WwTurO1rkxQWiaScGwBTRAP6RXyb9qc/view
+https://youtu.be/BcLF1d9VIT4
